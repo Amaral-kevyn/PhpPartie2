@@ -5,13 +5,17 @@
     $isEasy = true;
 ?>
 
-<p><?php
+<p> 
+    <?php
+
         if($isEasy == true){
             echo 'C\'est facile';
         }if($isEasy == false){
             echo 'C\'est difficile';
         }
-    ?></p>
+
+    ?>
+</p>
 
 <?php 
     include 'footer.php';

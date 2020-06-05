@@ -6,13 +6,18 @@
 ?>
 
 <h1>Exercice 1</h1>
-    <p><?php
+
+<p>
+    <?php
+
         if($age < 18){
-        echo 'Vous etes mineur';
+            echo 'Vous etes mineur';
         }else{
-        echo 'Vous etes majeur';
+            echo 'Vous etes majeur';
         }
-    ?></p>
+
+    ?>
+</p>
 
 <?php 
     include 'footer.php';
